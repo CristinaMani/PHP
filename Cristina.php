@@ -7,6 +7,7 @@
         <p>
           <?php
             echo "Cristina";
+            $myName = "Cristina";
           ?>
         </p>   
 	</body>
