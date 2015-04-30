@@ -14,7 +14,9 @@
         // the $languages array!
         $languages[1] = "C/C++";
         
-        echo $languages;
+        foreach ($languages as $value) {
+          echo "$value <br>";
+}
         
       ?>
     </p>
