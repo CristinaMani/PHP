@@ -25,11 +25,11 @@
         
         $teacher = new Person("boring","12345",12345);
         $student = new Person("Cristina", "Visan",24);
-        echo $student->isAlive," ";<br/>
-        echo $student->age;
+        echo $student->isAlive," ";echo "<br/>";
+        echo $student->age;echo "<br/>";
         $teacher->greet();
         $student->greet();
-        echo $teacher->greet();
+        echo $teacher->greet();echo "<br/>";
         echo $student->greet();
         
         ?>
