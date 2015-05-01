@@ -21,7 +21,7 @@
         // Add your code here!
         echo "My car is a ".$myArray[0]." ".$myArray[1]." ".$myArray[2]." doors ".$myArray[3];
         echo '<br/>';
-        echo "My car is a ".$myAssocArray['year']." ".$myAssocArray['colour'].$myAssocArray['doors']." doors ".$myAssocArray['make'];
+        echo "My car is a ".$myAssocArray['year']." ".$myAssocArray['colour']." ".$myAssocArray['doors']." doors ".$myAssocArray['make'];
       ?>
     </p>
   </body>
