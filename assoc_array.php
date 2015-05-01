@@ -1,27 +1,27 @@
 <html>
   <head>
-    <title>Making the Connection</title>
+    <title>Accessing Associative Arrays</title>
   </head>
   <body>
     <p>
       <?php
-        // This is an array using integers as the indices.
-        // Add 'BMW' as the last element in the array!
-        $car = array(2012, 'blue', 5, "BMW");
+        // This is an array using integers as the indices...
+        $myArray = array(2012, 'blue', 5, 'BMW');
 
-        // This is an associative array.
-        // Add the make => 'BMW' key/value pair!
-        $assocCar = array('year' => 2012,
-                   'colour' => 'blue',
-                   'doors' => 5,
-                   'make' => 'BMW');
+        // ...and this is an associative array:
+        $myAssocArray = array('year' => 2012,
+                        'colour' => 'blue',
+                        'doors' => 5,
+                        'make' => 'BMW');
             
-        // This code should output "BMW"...
-        echo $car[3];
-        echo '<br />';
+        // This code will output "blue".
+        echo $myArray[1];
+        echo '<br/>';
             
-        // ...and so should this!
-        echo $assocCar['make'];
+        // Add your code here!
+        echo "My car is a ".$myArray[0]." ".$myArray[1]." ".$myArray[2]." doors ".$myArray[3];
+        echo '<br/>';
+        echo "My car is a ".$myAssocArray['year']." ".$myAssocArray['colour']." doors ".$myAssocArray['make'];
       ?>
     </p>
   </body>
