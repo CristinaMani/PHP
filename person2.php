@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html>
 	<head>
 	  <title>Reconstructing the Person Class</title>
